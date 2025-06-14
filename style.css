@@ -34,3 +34,17 @@
   color: #c0c0c0;
   text-align: left;
 }
+
+.langue-switch {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* ← ajoute de l'espace entre chaque élément */
+  font-size: 1rem;
+  color: white;
+}
+
+.langue-switch img {
+  display: block;
+}

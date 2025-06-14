@@ -14,15 +14,16 @@ body {
   display: none;
 }
 
+img {
+  vertical-align: middle;
+  width: calc(12px + 0.2vw);
+  margin-top: -2px;
+}
+
 h1{
   color: #ffffff;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  background-color:#037882;
-  margin: auto;
-  padding: 0.5vw;
+  padding: 0.1vw;
   font-size: calc(13px + 0.5vw);
-  text-align: center;
 }
 
 h2 {
@@ -34,7 +35,6 @@ h2 {
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 h3{
@@ -56,20 +56,35 @@ h4 {
 
 a {
   color: #94a8b6;
-  font-size: calc(10px + 0.3vw);
   text-decoration:none;
 }
 
 a:hover {
-  color: #ffffff;
+  color: white;
   cursor: pointer;
 }
 
 p {
   font-size: calc(10px + 0.3vw);
-  color: #94a8b6;
   margin: 0;
   text-align: justify;
+}
+
+.titre {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #037882;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+}
+
+.titre h1 {
+  margin: 0 auto;
+  font-size: calc(17px + 0.5vw);
+  color: white;
 }
 
 .don {
@@ -87,12 +102,6 @@ p {
 
 .don:hover {
   border: 2px inset #006a74 ;
-}
-
-img {
-  vertical-align: middle;
-  width: calc(12px + 0.2vw);
-  margin-top: -2px;
 }
 
 .container {
@@ -163,7 +172,7 @@ footer p {
   width: 200px; /* Taille fixe ou ajustable */
   margin: 0;
   font-size: 0.8rem; /* Texte plus petit pour les autres */
-  color: white;
+  color: #94a8b6;
   white-space: nowrap;
 }
 
@@ -179,7 +188,7 @@ footer p.winkok {
   right: 20px;
   top: 20px;
   font-size: 0.8rem;
-  color: white;
+  color: #94a8b6;
   white-space: nowrap;
   display: flex;
   align-items: center;

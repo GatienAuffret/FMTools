@@ -6,13 +6,27 @@ Ce site propose plusieurs utilitaires qui facilitent l'accès à des données ut
 
 ## 🔧 Fonctionnalités prévues
 
-- 🔍 Recherche de joueurs avec **notes cachées**
-- 📊 Accès aux **rapports du staff**
-- 🏟️ Analyse des clubs et **valeurs des infrastructures** (formation, entraînement, etc.)
-- 💾 Sauvegarde & import de profils FM
-- 📁 Base de données et outils filtrables
-- ...et bien d'autres à venir !
+- 🧠 Évaluation des **notes cachées**
+- 🧾 Explication des **rapports du staff**
+- 🏗️ Évaluation des **valeurs des infrastructures** (formation, entraînement, etc.)
+- 🧑‍🏫 Évaluation des **préparateurs**
+- ⚖️ Comparateur et évaluateur de **joueurs**
+- 🌍 Notes et dates des pays pour les **newgens**
 
 ## 🌐 Site Web
 
 https://gatienauffret.github.io/FMTools/
+
+## 🙏 Remerciements & inspirations
+
+Ce projet est grandement inspiré et rendu possible grâce aux travaux et idées partagés par :
+
+- **Gilgiltsu**
+- **Kinito**
+- **DoctorDim**
+- **AlexJV**
+- **Chacha**
+- **FMArena**
+- **FMUltras**
+
+Un grand merci à eux pour leurs contributions à la communauté Football Manager !
